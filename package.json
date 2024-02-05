@@ -1,0 +1,17 @@
+{
+  "name": "bun-stdin-bug",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "example:node": "node stdin.js",
+    "example:node:ignore": "node stdin.js --ignore-pause",
+    "example:bun": "bun run stdin.js",
+    "example:bun:ignore": "bun run stdin.js --ignore-pause"
+  }
+}
